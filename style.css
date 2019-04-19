@@ -1,4 +1,4 @@
-/* document.body.appendChild(function() {var el = document.createElement('link'); el.setAttribute('ref', 'stylesheet'); el.setAttribute('href', 'http://domain/print.css'); return el;}()) */
+/* document.body.appendChild(function() {var el = document.createElement('link'); el.setAttribute('ref', 'stylesheet'); el.setAttribute('href', 'https://raw.githubusercontent.com/jl4282/wordpressstyle/master/style.css'); return el;}()) */
 
 #post-2 h3, #post-3 h3 { text-align: center; }
 #post-64 { visibility: hidden }
