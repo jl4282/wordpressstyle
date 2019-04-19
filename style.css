@@ -1,10 +1,11 @@
 /* document.body.appendChild(function() {var el = document.createElement('link'); el.setAttribute('ref', 'stylesheet'); el.setAttribute('href', 'https://raw.githubusercontent.com/jl4282/wordpressstyle/master/style.css'); return el;}()) */
 
-pique-panel1 h3, .pique-panel2 h3 { 
-  text-align: center; 
+.pique-panel1 h3, .pique-panel2 h3 { text-align: center; }
+@media (min-width: 768px) {
+    #post-64 { visibility: hidden }
 }
-#post-64 { 
-  visibility: hidden 
+@media (max-width: 767px) {
+	#post-64 { display: none }
 }
 .pique-panel2 img{
   width: 100% !important;
@@ -12,4 +13,4 @@ pique-panel1 h3, .pique-panel2 h3 {
   max-width: none !important;
   max-height: none !important;
   border-radius: 5px !important;
-}   
+}      
