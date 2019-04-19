@@ -1,9 +1,9 @@
 /* document.body.appendChild(function() {var el = document.createElement('link'); el.setAttribute('ref', 'stylesheet'); el.setAttribute('href', 'https://raw.githubusercontent.com/jl4282/wordpressstyle/master/style.css'); return el;}()) */
 
-#post-2 h3, #post-3 h3 { text-align: center; }
+.pique-panel1 h3, .pique-panel2 h3 { text-align: center; }
 #post-64 { visibility: hidden }
-#post-3 {
-	width: 100%;
+.pique-panel2 {
+  width: 100%;
   height: 100%;
   max-width: none;
   max-height: none;
