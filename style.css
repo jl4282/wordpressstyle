@@ -14,3 +14,21 @@
   max-height: none !important;
   border-radius: 5px !important;
 }      
+
+
+#primary-menu li{
+  	background-color: #f6a360;
+    border-radius: 10px 0px 0px 10px;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
+#primary-menu li right{
+  	background-color: #f6a360;
+    border-radius: 0px 10px 10px 0px;
+    border-right-color: black;
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+
