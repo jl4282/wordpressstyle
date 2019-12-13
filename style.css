@@ -1,42 +1,59 @@
-/* document.body.appendChild(function() {var el = document.createElement('link'); el.setAttribute('ref', 'stylesheet'); el.setAttribute('href', 'https://raw.githubusercontent.com/jl4282/wordpressstyle/master/style.css'); return el;}()) */
+/*
+Welcome to Custom CSS!
 
-.pique-panel1 h3, .pique-panel2 h3 { text-align: center; }
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/
+.pique-panel2 h3, .pique-panel3 h3 {
+	text-align: center;
+}
+
 @media (min-width: 768px) {
-    #post-64 { visibility: hidden }
+	#post-64 {
+		visibility: hidden;
+	}
 }
+
 @media (max-width: 767px) {
-	#post-64 { display: none }
-}
-.pique-panel2 img{
-  width: 100% !important;
-  height: 100% !important;
-  max-width: none !important;
-  max-height: none !important;
-  border-radius: 5px !important;
-}      
-
-/* yellow navbar */
-#primary-menu li{
-  	background-color: #f6a360;
-    border-radius: 10px 0px 0px 10px;
-    border-right-color: black;
-    border-right-width: 1px;
-    border-right-style: solid;
+	#post-64 {
+		display: none;
+	}
 }
 
-#primary-menu li right{
-  	background-color: #f6a360;
-    border-radius: 0px 10px 10px 0px;
-    border-right-color: black;
-    border-right-width: 1px;
-    border-right-style: solid;
-}
-/* Full size page (no white on widescreen monitors) */
-.site {
-	max-width: none;
+.pique-panel3 article:nth-child(7) {
+	width: 100%;
+	border: 2px white;
 }
 
-/* test before / after navbar */
+.pique-panel3 article:nth-child(7) img {
+	display: none;
+}
+
+.pique-panel3 article:nth-child(7) h3::before {
+	display: block;
+	background-image: url('https://testsite237982889.files.wordpress.com/2019/06/yagoda-6359.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	content: '';
+	height: 650px;
+	width: 100%;
+	background-position: center;
+	margin-bottom: 1em;
+}
+
+.pique-panel3 img {
+	width: 100% !important;
+	height: 100% !important;
+	max-width: none !important;
+	max-height: none !important;
+	border-radius: 5px !important;
+}
+
+@media (min-width: 767px) {
+	.site-branding .site-logo-link img {
+		height: 197px !important;
+		max-height: none !important;
+	}
+}
 
 #primary-menu li:first-child::before {
 	border-bottom: 2px solid #fcfbf9;
@@ -63,7 +80,7 @@
 	word-wrap: break-word;
 }
 
-#primary-menu li:nth-child(2)::after {
+#primary-menu li:nth-child(3)::after {
 	border-bottom: 2px solid #fcfbf9;
 	bottom: 0;
 	content: '';
@@ -73,7 +90,7 @@
 	margin-left: -4px;
 }
 
-#primary-menu li:nth-child(2) {
+#primary-menu li:nth-child(3) {
 	border-top: 2px solid #fcfbf9;
 	border-right: 2px solid #fcfbf9;
 	border-bottom: 0;
@@ -87,6 +104,18 @@
 	word-wrap: break-word;
 }
 
-#site-navigation.sticky li, #site-navigation.sticky li::before, #site-navigation.sticky li::after{
- border: 0px !important;
+#primary-menu li:nth-child(4) {
+	display: none;
+}
+
+#primary-menu li:nth-child(2) {
+	border-top: 2px solid #fcfbf9;
+}
+
+#site-navigation.sticky li, #site-navigation.sticky li::before, #site-navigation.sticky li::after {
+	border: 0 !important;
+}
+
+#post-50 p {
+	text-align: center !important;
 }
